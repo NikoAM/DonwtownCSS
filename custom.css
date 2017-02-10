@@ -1,0 +1,552 @@
+/*Fonts upload*/
+@font-face {font-family: Gotham Black; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Black.ttf);}
+@font-face {font-family: Gotham Black; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Black.woff);}
+@font-face {font-family: Gotham Bold;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Bold.ttf);}
+@font-face {font-family: Gotham Bold;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Bold.woff);}
+@font-face {font-family: Gotham Book;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.ttf);}
+@font-face {font-family: Gotham Book;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.woff);}
+@font-face {font-family: Gotham Light; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.ttf);}
+@font-face {font-family: Gotham Light; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.woff);}
+
+/*@font-face {font-family: Gotham Black; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Black.eot);}*/
+/*@font-face {font-family: Gotham Bold;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Bold.eot);}*/
+/*font-face {font-family: Gotham Book;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.eot);}*/
+/*@font-face {font-family: Gotham Light; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.eot);}*/
+
+/*Footer label*/
+footer label{
+    font-family:'Gotham-Book' !important;
+    font-weight: 400 !important;
+    font-size:0.75rem !important;
+}
+
+/*Signup footer*/
+footer form fieldset input[type="submit"]{
+	font-family:'Gotham-Book';
+}
+footer form fieldset input[type="email"]{
+	font-family:'Gotham-Book';
+}
+
+/*4EVERMAN page*/
+.detail-page .item .info p a{
+    font-family:'Gotham-Book'
+    font-weight: 400;
+    font-size:0.75rem;
+}
+.detail-page .item .info p a:hover{
+    font-family:'Gotham-Book'
+    font-weight: 400;
+    font-size:0.75rem;
+}
+
+/*Top1 - links*/
+header .hhnav li:first-child svg {
+    fill: #fff;
+}
+header .hhnav li a {
+    color: #fff;
+}
+.hhnav-text, header .hhnav li a{
+    font-family: 'Gotham Book';
+    font-weight: 400;
+    font-style:normal;
+    line-height:1.3125rem;
+}
+
+
+/*Top2 - menu*/
+header .mainnav nav .header-search>a svg {
+    fill: #fff;
+    vertical-align: top;
+}
+header .mainnav nav>ul li a {
+    font-size: 0.75rem;
+    color: #fff;
+    font-family: 'Gotham Bold';
+    font-weight: 700;
+    font-style: normal;
+    font-size: .75rem;
+    letter-spacing: 3px;
+}
+header .mainnav nav>ul li a:hover {
+    font-size: 0.75rem;
+    color: green;
+    font-family: 'Gotham Bold';
+    font-weight: 700;
+    font-style: normal;
+    font-size: .75rem;
+    letter-spacing: 3px;
+}
+header .mainnav nav .header-search>a{
+    width: 1.25rem;
+    height: 1.25rem;
+    flex: 0 0 1.5rem;
+}
+header .mainnav nav .header-search>div form input[type="text"]{
+    padding-left:5px;
+}
+
+/*Home*/
+div.item.featured.call-out .item-inner .info p{
+    text-align: justify;
+}
+
+
+/*Logo size*/
+header .mainnav nav>ul li.logo img{
+    width: auto;
+    max-width: none;
+    height: 2.8rem;
+}
+
+/*"I want to" and Top3 - menu*/
+.propnav ul li.iwanto, .propnav ul li a, .propnav ul li a[class^="icon-"]{
+    color: #000;
+    font-family:'Gotham Bold';
+    font-weight: 700;
+    font-style: normal;
+    font-size: .75rem;
+    letter-spacing: 3px;
+    color: #564e4e;
+}
+.propnav ul li a:hover, .propnav ul li a[class^="icon-"]:hover{
+    color: #f19c4f;
+}
+.propnav ul li a:hover svg, .propnav ul li a[class^="icon-"]:hover svg{
+    fill: #f19c4f;
+}
+
+/*Banner with button Home*/
+
+
+
+header .hhnav li:first-child {
+    border-right-color: #fff;
+}
+header .mainnav {
+    background:#000;
+}
+
+
+
+
+
+/*main carousel - font*/
+.carousel.hero-carousel .item .copy h1 {
+    font-family:'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    letter-spacing:normal;
+}
+
+
+div.banner.large{
+    height:19em;
+}
+
+
+/*font Gotham for h1,h2*/
+h1.seaport, h1, h2, h2.seaport {
+    font-family: 'Gotham Book';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    position:relative;
+    text-transform: uppercase;
+    font-size:1.5rem;
+    width: 87.5%;
+}
+/*Line under H1*/
+h1.seaport:after, h1:after, h2:after, h2.seaport:after{
+    border-bottom:0;
+    width: 5em;
+    top:68%;
+    transform:inherit;
+    height: 3px;
+    background: #000;
+    z-index: -1;
+    position:relative;
+    margin:0.3em auto -0.3em;
+}
+/*News - font for news left*/
+div.item.featured.event .item-inner .info h2{
+    font-family:'Gotham Book';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+div.item.card .info h2{
+    font-family:'Gotham Book';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.events-carousel .carousel-inner .item .info h2{
+    padding:1rem 1rem 0;
+    font-size:1.25rem;
+    text-align:left;
+}
+div.item.featured .info h2{
+    padding:1rem 1rem 0;
+    font-size:1.25rem;
+    text-align:left;
+    margin:0;
+    text-transform;none;
+}
+.banner-heading-lg, div.banner h1, div.banner.with-btn h1, div.banner.large h1, div.banner .copy h1, div.banner.with-btn .copy h1, div.banner.large .copy h1, .search-results h1{
+    font-family:'Gotham Bold';
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+/*.item.tile .item-inner>a{
+    display:list-item;
+            }
+*/
+
+/*Button for banner*/
+div.banner.with-btn .copy a, div.banner.with-btn.with-btn .copy a, div.banner.large.with-btn .copy a{
+    display:block;
+    border:none;
+    font-family:'Gotham Bold';
+    font-size: .75rem;
+    text-transform: uppercase;
+    text-shadow: grey 0.5px 0.5px 0.5px;
+    width: 24em;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+div.banner.with-btn .copy a:hover, div.banner.with-btn.with-btn .copy a:hover, div.banner.large.with-btn .copy a:hover{
+    background-position:left 95%;
+    color:#000;
+    text-shadow:none;
+}
+div.item.featured.call-out .item-inner .info a.btn.cta{
+    font-family:'Gotham Bold';
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+div.banner h1{
+    margin:0 auto;
+    font-size:1em;
+    text-transform:uppercase;
+}
+div.banner.with-btn .copy h1{
+    text-transform: uppercase;
+    border: 10px solid #fff;
+    display: block;
+    padding: 1rem 1rem;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+}
+div.banner .copy h1, div.banner .copy h2, div.banner .copy h3 {
+    text-transform:uppercase;
+    text-shadow: 0 0 2.5px rgba(0,0,0,0.25);
+}
+
+
+
+/*visible menu togler*/
+.menu-toggle{
+    background:#fff;
+ }
+
+
+
+/*About page*/
+h2.summerlin, h2.summerlin h2:after{
+    margin:auto;
+}
+h2.summerlin span, h2.summerlin span{
+}
+h1.text-left, h2.text-left{
+    text-align:center;
+}
+.section p{
+    text-align:left;
+    line-height: 1.3125rem;
+}
+/*div.item.featured .info p:not(.date){
+    text-align:left;
+}*/
+.form-trigger{
+    padding-left:10px;
+}
+/*Цвет для горизонтальных для новостного блока*/
+div.events-carousel.event-cards.carousel .carousel-inner .item.card .info .date:after{
+    border-bottom-color:#AC8F55;
+}
+/*1111*/
+.tenant-directory .tenant-container .tenant-list>div h3 a{
+    text-align:center;
+    text-transform:uppercase;
+}
+div.item.featured.event{
+  padding-top:0;
+  margin-top:0;
+  margin-bottom:2rem;
+}
+/*Height black news block*/
+div.item.featured.call-out .item-inner .info{
+    padding:5.5rem 4.375rem;
+}
+/*p.line-clamp span{*/
+p{
+    font-family: 'Gotham Book';
+    font-weight: 400;
+    font-size: .75rem;
+}
+
+/*Discover*/
+.item.tile .cover .info .date:after{
+    content:' ';
+    display: block;
+    border-bottom:2px solid #ac8f55;
+    width: 33$;
+    margin:0.5rem 0;
+}
+
+
+/*carousel*/
+.carousel-tile.no-hover .carousel-inner .item.tile .cover .info p.date{
+    text-align:left;
+    font-family:'Gotham Bold';
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: 3px;
+}
+.carousel-tile.no-hover .carousel-inner .item.tile .cover .info h2{
+    font-family:'Gotham Book';
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.line-clamp span{
+    font-family:'Gotham-Book';
+    text-align:justify;
+    font-weight:400;
+    font-size: 0.75rem;
+}
+
+div.banner{
+        display: flex;
+        background: transparent no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: 14rem;
+        position: relative;
+        margin: 0;
+}
+
+
+div.item.featured.call-out.dark .item-inner .info{
+        background:#000;
+        color:inherit;
+}
+
+/*Event*/
+.detail-page.event .item .info h1:after{
+    top: 0.15rem;
+    border-bottom-width: 2px;
+    margin:0;
+}
+.carousel-tile .carousel-inner div.item.tile .cover .info p.date {
+    color: #000;
+    text-align: left;
+}
+div.banner .copy p{
+    font-family:'Gotham-Book';
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-shadow: grey 1px 1px 1px;
+}
+.cal #calendar .fc-toolbar .fc-center h2{
+    font-family:'Gotham-Book';
+    }
+.cal #calendar .fc-toolbar .fc-center>a{
+    font-family:'Gotham-Book';
+    }
+.cal #calendar table .fc-day-header{
+    font-family:'Gotham-Book';
+    }
+.cal #calendar table .fc-day-number{
+    font-family:'Gotham-Book';
+    }
+
+
+/*Footer Font*/
+footer p{
+    font-family:'Gotham Book';
+    font-weight: 400;
+    font-size: .75rem;
+}
+footer p a:hover{
+    font-family:'Gotham Book';
+    font-weight: 400;
+    font-size: .75rem;
+    color: #ac8f55;
+}
+footer ul{
+    font-family:'Gotham Book';
+    font-weight: 400;
+    font-size: .75rem;
+}
+footer .header{
+    font-family:'Gotham Bold';
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: 3px;
+}
+footer a.header:hover{
+    font-family:'Gotham Bold';
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: 3px;
+    color: #ac8f55;
+}
+footer .copyright {
+    font-family:'Gotham Book';
+    font-weight: 400;
+    font-size: .75rem;
+}
+footer .copyright a:hover {
+    font-family:'Gotham Book';
+    font-weight: 400;
+    font-size: .75rem;
+    color: #ac8f55;
+}
+h2+p.subtitle{
+    font-family:'Gotham-Book';
+    font-size: 0.875rem;
+}
+
+
+/*Sitemap*/
+.sitemap a{
+    color:#000;
+    font-family:'Gotham-Book';
+    font-size: 0.75rem;
+}
+
+/*404*/
+.errorpage a.btn.cta{
+    font-family:'Gotham-Bold';
+    margin: 0 -2em 0;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+footer iframe{
+    height:8px;
+}
+
+
+
+
+/*Responsive view*/
+@media screen and (min-width: 992px){
+	div.item.featured.call-out.with-img .item-inner img{
+        top:80%;
+    }
+div.tabbed .tab-pane h1:after, div.tabbed .tab-pane h2:after{
+   left:0;
+}
+    .h1{
+    font-size:1rem;
+        }
+}
+@media screen and (max-width: 768px){
+    div.banner.with-btn .copy h1{
+    text-transform:uppercase;
+    border: 5px solid #fff;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    letter-spacing: 0.1em;
+    font-size: 1.6rem !important;
+}
+.header.list-inline{
+    margin-top:10px;
+}
+div.tabbed .tab-pane h1:after, div.tabbed .tab-pane h2:after{
+left:0px;
+}
+.propnav ul li.iwanto{
+    color: #000;
+    font-family:'Gotham Bold';
+    font-weight: 700;
+    font-style: normal;
+    font-size: .75rem;
+    letter-spacing: 1px;
+    color: #564e4e;
+}
+}
+@media screen and (max-width: 375px) {
+div.banner.with-btn .copy h1{
+    text-transform: uppercase;
+    border: 5px solid #fff;
+    display: block;
+    padding: 0.1rem 0.1rem;
+    letter-spacing: normal;
+    font-size:1.6rem !important;
+}
+header .mainnav nav>ul li.logo img{
+        height: 50%;
+}
+.carousel-tile .carousel-inner div.item.tile .cover .info a.category{
+    position: static;
+}
+.carousel-tile.no-hover .carousel-inner .item.tile .cover .info a.cta:not(.btn){
+    position:static;
+    float:right;
+}
+.carousel-tile.no-hover .carousel-inner .item.tile .cover .info h2{
+    font-size:1.2rem;
+}
+div.tabbed .tabs li a{
+	font-size:1rem;
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+   	.carousel-tile.no-hover .carousel-inner .item.tile .cover .info a.category {
+   		left:5%;
+  		top:90%;
+	}
+    .carousel-tile.no-hover .carousel-inner .item.tile .cover .info a.cta:not(.btn) {
+        width: 1.09rem;
+        height: 1.25rem;
+		padding: 0;
+      	top: 90%;
+    }
+    .carousel-tile.spaced .carousel-inner .item.tile {
+    	margin:0 0.5rem;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width:426px) {
+.carousel-tile.spaced .carousel-inner .item.tile {
+    margin:0 0.5rem;
+	}
+    .carousel-tile.no-hover .carousel-inner .item.tile .cover .info a.category{
+    top:90%;
+    left:10%;
+	}
+	.carousel-tile.no-hover .carousel-inner .item.tile .cover .info a.cta:not(.btn){
+    top:90%;
+    right:10%;
+	}
+	.carousel-tile .carousel-inner div.item.tile .cover .info{
+    width:90%;
+    }
+}
+@media screen and (max-width: 1508px) and (min-width:991px) {
+    .carousel-tile.no-hover .carousel-inner .item.tile .cover .info a.category,
+	.carousel-tile.no-hover .carousel-inner .item.tile .cover .info a.cta:not(.btn){
+    top:90%;
+	}
+}
