@@ -1,12 +1,13 @@
 /*Fonts upload*/
-@font-face {font-family: Gotham Black; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Black.ttf);}
 @font-face {font-family: Gotham Black; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Black.woff);}
-@font-face {font-family: Gotham Bold;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Bold.ttf);}
+@font-face {font-family: Gotham Black; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Black.ttf);}
 @font-face {font-family: Gotham Bold;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Bold.woff);}
-@font-face {font-family: Gotham Book;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.ttf);}
+@font-face {font-family: Gotham Bold;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Bold.ttf);}
 @font-face {font-family: Gotham Book;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.woff);}
-@font-face {font-family: Gotham Light; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.ttf);}
+@font-face {font-family: Gotham Book;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.ttf);}
 @font-face {font-family: Gotham Light; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.woff);}
+@font-face {font-family: Gotham Light; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.ttf);}
+
 
 /*@font-face {font-family: Gotham Black; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Black.eot);}*/
 /*@font-face {font-family: Gotham Bold;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Bold.eot);}*/
@@ -41,6 +42,9 @@ footer form fieldset input[type="email"]{
 }
 
 /*Top1 - links*/
+header .hhnav li a:hover {
+    color:#ac8f55;
+}
 header .hhnav li:first-child svg {
     fill: #fff;
 }
@@ -71,7 +75,7 @@ header .mainnav nav>ul li a {
 }
 header .mainnav nav>ul li a:hover {
     font-size: 0.75rem;
-    color: green;
+    color: #ac8f55;
     font-family: 'Gotham Bold';
     font-weight: 700;
     font-style: normal;
@@ -93,6 +97,7 @@ div.item.featured.call-out .item-inner .info p{
 }
 
 
+
 /*Logo size*/
 header .mainnav nav>ul li.logo img{
     width: auto;
@@ -111,10 +116,10 @@ header .mainnav nav>ul li.logo img{
     color: #564e4e;
 }
 .propnav ul li a:hover, .propnav ul li a[class^="icon-"]:hover{
-    color: #f19c4f;
+    color: #ac8f55;
 }
 .propnav ul li a:hover svg, .propnav ul li a[class^="icon-"]:hover svg{
-    fill: #f19c4f;
+    fill: #ac8f55;
 }
 
 /*Banner with button Home*/
