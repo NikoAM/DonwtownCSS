@@ -8,7 +8,7 @@
 @font-face {font-family: Gotham Light; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.woff);}
 @font-face {font-family: Gotham Light; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.ttf);}
 
-/*Test bitbucket*/
+
 /*@font-face {font-family: Gotham Black; src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Black.eot);}*/
 /*@font-face {font-family: Gotham Bold;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Bold.eot);}*/
 /*font-face {font-family: Gotham Book;  src: url(/etc/designs/retail-sites/downtown-summerlin/fonts/Gotham-Book.eot);}*/
@@ -450,6 +450,11 @@ footer iframe{
     height:8px;
 }
 
+/*IE11/Edge fix*/
+header .mainnav nav>ul li.logo {
+    height:4rem;
+    flex: 0 0 15rem;
+}
 
 
 
@@ -490,6 +495,9 @@ left:0px;
     color: #564e4e;
 }
 }
+
+
+
 @media screen and (max-width: 375px) {
 div.banner.with-btn .copy h1{
     text-transform: uppercase;
