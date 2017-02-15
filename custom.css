@@ -82,6 +82,9 @@ header .mainnav nav>ul li a:hover {
     font-size: .75rem;
     letter-spacing: 3px;
 }
+
+
+/*Search fixies*/
 header .mainnav nav .header-search>a{
     width: 1.25rem;
     height: 1.25rem;
@@ -89,7 +92,13 @@ header .mainnav nav .header-search>a{
 }
 header .mainnav nav .header-search>div form input[type="text"]{
     padding-left:5px;
+    width:0;
 }
+header .mainnav nav .header-search>div form input[type="text"]:focus {
+    padding-left:5px;
+    width:100%;
+}
+
 
 /*Home*/
 div.item.featured.call-out .item-inner .info p{
@@ -454,6 +463,11 @@ footer iframe{
 header .mainnav nav>ul li.logo {
     height:4rem;
     flex: 0 0 15rem;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    header .hhnav li:first-child svg {
+        padding-right:10em;
+    }
 }
 
 
